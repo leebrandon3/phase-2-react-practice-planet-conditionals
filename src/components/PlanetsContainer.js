@@ -3,12 +3,12 @@ import PlanetCard from "./PlanetCard"
 
 function PlanetContainer({planets}) {
 
-  const mappedPlanets = planets.map(planet => <PlanetCard planet={planet} />)
+  const mappedPlanets = planets.map(planet => <PlanetCard planet={plant} />)
 
   return (
     <div className="flex container">
 
-      {mappedPlanets}
+      {mappedPlanets()}
 
     </div>
   )

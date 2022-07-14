@@ -10,7 +10,7 @@ You'll be able to fetch to `http://localhost:4001/planets`.
 
 ## Deliverable One
 
-Fix all the errors!
+Fix all the errors! You should find at least 4 errors to fix.
 
 ## Deliverable Two
 
@@ -39,3 +39,5 @@ To create the light mode, just apply the `light-mode` to the `App` component's `
 ```html
 <App className="App light-mode" />
 ```
+
+Additionally, as we switch from dark mode to light mode and back, the button text should reflect which mode we're able to switch to.
